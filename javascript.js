@@ -79,13 +79,7 @@ function getGameStatus (playerChoice, computerChoice, result) {
     `);
 }
 
-// Repeat until game ends
-for (let i = 0; i < 5; i++) {
-    game();
-}
-
-getGameWinner();
-
+// Get game winner
 function getGameWinner () {
     if (playerScore == computerScore) {
         console.log(`It was a tie, can you believe it?`);

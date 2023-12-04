@@ -4,3 +4,27 @@
     border: 0;
     box-sizing: border-box;
 }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+button {
+    width: 20%;
+    color: white;
+    background-color: black;
+    padding: 1rem 1rem;
+    font-size: 140%;
+    border-radius: 10px;
+    cursor: pointer;
+}
