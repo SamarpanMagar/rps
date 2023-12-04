@@ -3,6 +3,8 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+
+    font-family: monospace;
 }
 
 body {
@@ -10,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .buttons {
@@ -27,4 +30,10 @@ button {
     font-size: 140%;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.textarea {
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
 }
