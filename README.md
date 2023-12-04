@@ -1,2 +1,4 @@
 # rps
-Rock Paper Scissors
+# Rock Paper Scissors
+
+# Live at https://samarpanmagar.github.io/rps/
